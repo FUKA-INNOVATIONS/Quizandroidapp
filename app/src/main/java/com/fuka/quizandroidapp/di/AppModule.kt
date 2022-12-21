@@ -1,6 +1,7 @@
 package com.fuka.quizandroidapp.di
 
 import com.fuka.quizandroidapp.network.QuestionApi
+import com.fuka.quizandroidapp.repository.QuestionRepository
 import com.fuka.quizandroidapp.util.Constants
 import dagger.Module
 import dagger.Provides
@@ -23,5 +24,9 @@ object AppModule {
             .build()
             .create(QuestionApi::class.java)
     }
+
+    @Singleton
+    @Provides
+    fun provideQuestionRepository(api: QuestionApi) = QuestionRepository(api)
 
 }
