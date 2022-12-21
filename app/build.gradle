@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.fuka.weatherforecastandroidapp'
+    namespace 'com.fuka.quizandroidapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.fuka.weatherforecastandroidapp"
+        applicationId "com.fuka.quizandroidapp"
         minSdk 30
         targetSdk 32
         versionCode 1

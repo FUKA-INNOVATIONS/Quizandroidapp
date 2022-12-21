@@ -1,4 +1,4 @@
-package com.fuka.weatherforecastandroidapp
+package com.fuka.quizandroidapp
 
 import android.os.Bundle
 import android.util.Log
@@ -11,9 +11,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.fuka.weatherforecastandroidapp.ui.theme.QuizAndroidAppTheme
-import com.fuka.weatherforecastandroidapp.util.Constants
-import com.fuka.weatherforecastandroidapp.viewModel.QuestionsViewModel
+import com.fuka.quizandroidapp.ui.theme.QuizAndroidAppTheme
+import com.fuka.quizandroidapp.util.Constants
+import com.fuka.quizandroidapp.viewModel.QuestionsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

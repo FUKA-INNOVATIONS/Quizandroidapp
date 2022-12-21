@@ -1,4 +1,4 @@
-package com.fuka.weatherforecastandroidapp.ui.theme
+package com.fuka.quizandroidapp.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

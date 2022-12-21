@@ -1,4 +1,4 @@
-package com.fuka.weatherforecastandroidapp.data
+package com.fuka.quizandroidapp.data
 
 data class DataOrException<T, Boolean, E: Exception>(
     var data: T? = null,
