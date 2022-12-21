@@ -1,4 +1,4 @@
-package com.fuka.weatherforecastandroidapp
+package com.fuka.quizandroidapp
 
 import org.junit.Test
 
