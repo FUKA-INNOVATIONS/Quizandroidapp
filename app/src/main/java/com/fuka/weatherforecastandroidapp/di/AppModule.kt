@@ -1,8 +1,8 @@
-package com.fuka.quizandroidapp.di
+package com.fuka.weatherforecastandroidapp.di
 
-import com.fuka.quizandroidapp.network.QuestionApi
-import com.fuka.quizandroidapp.repository.QuestionRepository
-import com.fuka.quizandroidapp.util.Constants
+import com.fuka.weatherforecastandroidapp.network.QuestionApi
+import com.fuka.weatherforecastandroidapp.repository.QuestionRepository
+import com.fuka.weatherforecastandroidapp.util.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,4 +1,4 @@
-package com.fuka.quizandroidapp.model
+package com.fuka.weatherforecastandroidapp.model
 
 data class QuestionItem(
     val answer: String,

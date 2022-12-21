@@ -1,4 +1,4 @@
-package com.fuka.quizandroidapp.ui.theme
+package com.fuka.weatherforecastandroidapp.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

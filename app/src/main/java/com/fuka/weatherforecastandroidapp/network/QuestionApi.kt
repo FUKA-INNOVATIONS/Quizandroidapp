@@ -1,6 +1,6 @@
-package com.fuka.quizandroidapp.network
+package com.fuka.weatherforecastandroidapp.network
 
-import com.fuka.quizandroidapp.model.Question
+import com.fuka.weatherforecastandroidapp.model.Question
 import retrofit2.http.GET
 import javax.inject.Singleton
 

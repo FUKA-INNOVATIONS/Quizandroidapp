@@ -1,4 +1,4 @@
-package com.fuka.quizandroidapp
+package com.fuka.weatherforecastandroidapp
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

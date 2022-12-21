@@ -1,4 +1,4 @@
-package com.fuka.quizandroidapp.util
+package com.fuka.weatherforecastandroidapp.util
 
 object Constants {
     // https://raw.githubusercontent.com/itmmckernan/triviaJSON/master/world.json

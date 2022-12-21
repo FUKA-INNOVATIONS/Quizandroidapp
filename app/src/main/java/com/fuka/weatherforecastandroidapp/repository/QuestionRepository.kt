@@ -1,10 +1,10 @@
-package com.fuka.quizandroidapp.repository
+package com.fuka.weatherforecastandroidapp.repository
 
 import android.util.Log
-import com.fuka.quizandroidapp.data.DataOrException
-import com.fuka.quizandroidapp.model.QuestionItem
-import com.fuka.quizandroidapp.network.QuestionApi
-import com.fuka.quizandroidapp.util.Constants
+import com.fuka.weatherforecastandroidapp.data.DataOrException
+import com.fuka.weatherforecastandroidapp.model.QuestionItem
+import com.fuka.weatherforecastandroidapp.network.QuestionApi
+import com.fuka.weatherforecastandroidapp.util.Constants
 import javax.inject.Inject
 
 class QuestionRepository @Inject constructor(private val api: QuestionApi) {

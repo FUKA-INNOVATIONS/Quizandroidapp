@@ -1,12 +1,12 @@
-package com.fuka.quizandroidapp.viewModel
+package com.fuka.weatherforecastandroidapp.viewModel
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.fuka.quizandroidapp.data.DataOrException
-import com.fuka.quizandroidapp.model.QuestionItem
-import com.fuka.quizandroidapp.repository.QuestionRepository
+import com.fuka.weatherforecastandroidapp.data.DataOrException
+import com.fuka.weatherforecastandroidapp.model.QuestionItem
+import com.fuka.weatherforecastandroidapp.repository.QuestionRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
