@@ -5,6 +5,7 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.PathEffect
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.fuka.quizandroidapp.ui.AppColors
@@ -12,6 +13,8 @@ import com.fuka.quizandroidapp.ui.AppColors
 @Preview
 @Composable
 fun QuestionDisplay() {
+    val pathEffect = PathEffect.dashPathEffect(floatArrayOf(10f,10f), phase = 0f)
+
     Surface(
         modifier = Modifier
             .fillMaxWidth()
@@ -21,7 +24,8 @@ fun QuestionDisplay() {
     ) {
         Column(modifier = Modifier.padding(12.dp),
             verticalArrangement = Arrangement.Top, horizontalAlignment = Alignment.Start) {
-
+            QuestionTracker()
+            DrawDottedLine(pathEffect)
         }
     }
 }
